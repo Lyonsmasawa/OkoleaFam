@@ -1,9 +1,11 @@
 
 body{
+    /* background-color: grey; */
     border-top:8px solid rgba(77, 181, 255, 0.2);
     border-bottom: 8px solid rgba(77, 181, 255, 0.2);
     width: 1440px;
-    
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 h1{
     font-size: 50px;
