@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+    font-weight: normal;
+    size: 40px;
+
+}
+.p1{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    font-weight: 480px;
+    line-height: 25px;
+
+    
+}
+.image1{
+    position: absolute;
+    width: 470px;
+    height: 190px;
+    left: 80px;
+    top: 600px;
+    border: 5px rgb(0,0,0,0.5);
+    box-sizing: border-box;
+}
+.image2{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 700px;
+    top: 192px;
+    background-color: blue;
+    border:10px rgb(51, 51, 238);
+    box-sizing: border-box;
+    padding: 10px;
+}
