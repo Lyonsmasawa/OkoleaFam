@@ -190,3 +190,13 @@ height: 6vh;
     letter-spacing: 0.05em;
     padding: 1% 4%;
 }
+.main a{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Roboto;
+}
+#tread{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
