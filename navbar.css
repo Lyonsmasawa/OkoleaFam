@@ -63,7 +63,7 @@ nav {
 .fam {
   background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   margin: 0%;
 }
 
