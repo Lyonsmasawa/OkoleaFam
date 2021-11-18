@@ -1,48 +1,75 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   width: 100%;
   margin: 0%;
+  text-align: center;
+  align-items: center;
 }
+
 .slideshow {
   width: 100%;
   background-color: white;
 }
-/* .mySlides{
 
-} */
+.dbutton {
+  background-color: white;
+  float: right;
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: 6px 16px 7px grey;
+  font-size: 36px;
+  color: #075F92;
+  font-family: Robotobold;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding: 1% 2.1%;
+  position: absolute;
+  right: 8%;
+}
 
-.backdots{
+.backdots {
+  display: flex;
+  justify-content: center;
   background: rgba(161, 208, 253, 0.3);
   width: 100%;
-  padding: 3% 0%;
+  padding: 0% 0%;
   text-align: center;
+  align-items: center;
 }
+
+
 .dot {
-  height: 24px;
-  width: 24px;
+  height: 25px;
+  width: 25px;
   margin: 0 1%;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.text{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-family: Roboto;
-color: white;
-font-size: 38px;
-font-weight: 700;
-line-height: 45px;
-letter-spacing: 0.02em;
-text-align: center;
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Roboto;
+  color: white;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-.active{
- background-color: #3FB1F3;;
+
+.active {
+  background-color: #3FB1F3;
+  ;
 }
 
 .fade {
@@ -53,12 +80,29 @@ text-align: center;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .6} 
-  to {opacity: 1}
+  from {
+    opacity: .6
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .9} 
-  to {opacity: 1}
+  from {
+    opacity: .9
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
+.arrow {
+  color: #2CAEDF;
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  margin-bottom: 1.8%;
+}
