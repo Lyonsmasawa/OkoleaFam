@@ -38,7 +38,7 @@ footer{
 }
 .fam{
   background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .socialicons{
