@@ -50,7 +50,7 @@ body {
 
 .contactus {
   flex-basis: 50%;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
   padding: 0% 0%;
   font-family: Roboto;
@@ -99,7 +99,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
   justify-content: space-around;
 }
@@ -118,7 +118,7 @@ body {
   justify-content: center;
 }
 #name{
-  margin-top: 10%;
+  margin-top: 20%;
 }
 #name,
 #email {
