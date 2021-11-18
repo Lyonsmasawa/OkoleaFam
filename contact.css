@@ -63,7 +63,8 @@ body {
 }
 
 .contactus span {
-  font-size: 22px;
+  font-size: 26px;
+  font-family: Robotobold;
   padding: 2%;
 }
 
@@ -85,12 +86,12 @@ body {
 }
 
 .icons {
-  height: 20vh;
+  margin-top: 5%;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  font-size: 34px;
 }
 
 .formarea {
