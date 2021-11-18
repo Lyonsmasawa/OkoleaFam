@@ -1,0 +1,93 @@
+body {
+  background-color: blue;
+  text-align: center;
+
+
+}
+
+
+.card {
+  border: 1px solid black;
+  max-width: 500px;
+  margin: 2rem auto 5rem;
+  background-color: white;
+  height: 800px;
+}
+
+form {
+  padding: 2rem;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: .5rem;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.BUT{
+  text-align: center;
+
+
+}
+h1{
+  text-align: center;
+}
+.fb {
+  width: auto;
+  height: auto;
+  max-width: 90px;
+  max-height: 50px;
+}
+.image1{
+
+  width: auto;
+  height: auto;
+  max-width: 90px;
+  max-height: 20px;
+  float: left;
+}
+.image2{
+
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 20px;
+  float: left;
+}
+.goo{
+
+  width: auto;
+  height: auto;
+  max-width: 90px;
+  max-height: 50px;
+  float: 50%;
+ 
+}
+.for{
+  float: left;
+}
+.text{
+  float: left;
+}
+.DIV{
+  padding-bottom: 69px;
+}
+
+.image3{
+
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 20px;
+  float: left;
+}
+.tet{
+  float: left;
+}
+
