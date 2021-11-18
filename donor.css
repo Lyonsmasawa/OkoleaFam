@@ -1,4 +1,16 @@
 .main{
-    background-color: black;
+    background-color: blueviolet;
+    flex-basis: 100vh;
+    
+}
+.amount{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+.duration{
+   display: flex;
+   flex-direction: column;
+   justify-content: right;
 }
 
