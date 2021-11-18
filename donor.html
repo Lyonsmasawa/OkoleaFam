@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,68 +8,78 @@
     <title>Donate</title>
     <link rel="stylesheet" href="donor.css">
 </head>
+
 <body>
     <div class="card">
         <div class="main">
-        <div class="logo">
-            <div class="ilogo">
-                <img src="img/logo.png">
-                <img src="img/Okolea.png">
-                <img src="img/Fam.png">
+            <div class="dlogo">
+                <div class="ilogo">
+                    <img src="img/logo.png" alt="" style="width: 60%;">
+                </div>
+                <div class="logtxt"> <span id="otxt">Okolea</span>
+                    <span id="famtxt">Fam</span>
+                </div>
+
             </div>
-        </div>
-        <div class="amount">
-            <div class="pesa">
-                <head>Amount</head>
-                <input type="text" name="text-button" id="text" required>
-            </div>
-            <div class="duration">
-                  <div class="radio1">
-                   <input type="radio" name="radio-btn" id="radio1">
-                   <head>one-time</head>
-                 </div>
-                  <div class="radio2">
-                   <input type="radio" name="radio-btn" id="radio2"> 
-                   <head>monthly</head>
-                   </div>
-                   <div class="radio3">
-                      <input type="radio" name="radio-btn" id="radio3">
-                     <head>annual</head>
+
+            <div class="amount">
+                <div class="pesa">
+                    <label for="amount">Amount</label>
+                    <input type="number" name="amount" id="amount" required placeholder="0.00">
+                </div>
+                <div class="duration">
+                    <div class="radio1">
+                        <input type="radio" name="radio-btn" id="radio1">
+
+                        <head>one-time</head>
                     </div>
+                    <div class="radio2">
+                        <input type="radio" name="radio-btn" id="radio1">
+
+                        <head>monthly</head>
+                    </div>
+                    <div class="radio3">
+                        <input type="radio" name="radio-btn" id="radio1">
+
+                        <head>annual</head>
+                    </div>
+                </div>
             </div>
+
             <div class="pay">
                 <div class="method">
+
                     <head>Payment method</head>
                 </div>
-                <div class="buy">
+                <div class="mode">
                     <input type="radio" name="radio-btn" id="radio1" required>
-                   <head>Mpesa</head>
-                    <input type="radio" name="radio-btn" id="radio2" required> 
+
+                    <head>Mpesa</head>
+                    <input type="radio" name="radio-btn" id="radio1" required>
+
                     <head>Bank</head>
-                    <input type="radio" name="radio-btn" id="radio3">
-                     <head>Paypal</head>
-                </div>
-                
-                <div class="fullname">
-                  
-                    <div class="full">
-                        <head>Full Name</head>
-                        <input type="text" placeholder="name">
-                    </div>
-                        <div class="gib">
-                        <head>Comment</head>
-                        <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
-                    </div>
-                    <div class="don">
-                                <button>DONATE</button>
-                            </div>
-                           
-                    </div>
-                </div>
-        </div>
+                    <input type="radio" name="radio-btn" id="radio1">
+
+                    <head>Paypal</head>
                 </div>
             </div>
-    
-    
+
+            <div class="pdetails">
+                <div class="fully">
+
+                    <head>Full names</head>
+                    <input type="text" placeholder="name" id="name12" >
+
+                    <head>Comment</head>
+                    <textarea id="comment12" name="comment" placeholder="message"></textarea>
+                    <div class="ddiv">
+                        <button class="donbut">DONATE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 </body>
+
 </html>

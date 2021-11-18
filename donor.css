@@ -1,58 +1,192 @@
-.card{
-border: 1px solid black;
-    flex-basis: 100vh;
-    max-width: 500px;
-    margin: 2rem auto 5rem;
-    background-color: white;
-    height: 800px;
-    align-items: center;
-    font-size: 25px;
-
-    
-}
-.amount{
-
-    display: flex;
-    flex-direction: column;
-    padding-left: 2%;
-    padding: 50px;
-}
-.duration{
-    text-align: right;
-   padding-left: 20%;
-   /* align-items: flex-end; */
-   margin: 10px;
+@font-face {
+    font-family: Robotoitalic;
+    src: url(fonts/roboto/Roboto-Italic.ttf);
 }
 
+@font-face {
+    font-family: Robotoregular;
+    src: url(fonts/roboto/Roboto-Regular.ttf);
+}
 
-body{
-    background-color: white;
+@font-face {
+    font-family: Robotomedium;
+    src: url(fonts/roboto/Roboto-Medium.ttf);
 }
-.main{
-    background-color: rgb(0, 195, 255);
-    height: 800px;
+
+@font-face {
+    font-family: Robotobold;
+    src: url(fonts/roboto/Roboto-Bold.ttf);
 }
-.ilogo{
+
+@font-face {
+    font-family: Robotoblack;
+    src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Robotobold;
+    margin: 0%;
+    width: 100%;
     text-align: center;
 }
-.gib{
-    padding: 10px;
-}
-.don{
+
+.dlogo {
+    display: flex;
+    align-items: center;
     justify-content: center;
-}
-.full{
-    padding: 30px;
-}
-.method{
-    padding: 5px;
-}
-.buy{
-    padding: 20px;
+    text-align: center;
+    margin: 0%;
 }
 
-#radio1{
-    padding-left: 30px;
+.ilogo {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: right;
 }
 
+.logtxt {
+    padding: 0%;
+    font-size: 20px;
+    font-family: Robotobold;
+    margin: 0%;
+}
 
+#otxt {
+    margin: 0%;
+    padding: 0%;
+}
+
+#famtxt {
+    color: white;
+    padding: 0%;
+}
+
+.card {
+    background-color: white;
+    padding: 5% 33%;
+}
+
+.main {
+    background: linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 110vh;
+    font-size: 26px;
+}
+
+.amount {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0% 12%;
+}
+
+#amount,
+#name12,
+#comment12 {
+    border-radius: 4px;
+    border: none;
+    height: 4vh;
+    padding: 0% 6%;
+    margin-top: 3%;
+}
+
+.duration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 7.8%;
+    font-family: Robotoregular;
+}
+
+.pesa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#radio1 {
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+
+.pay {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 9vh;
+    width: 100%;
+    padding: 0% 12%;
+}
+
+.mode {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Robotoregular;
+}
+
+.pdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0% 12%;
+}
+
+.fully {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#name12,
+#comment12 {
+    width: 100%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+#name12{
+height: 6vh;
+    font-size: 16px;
+}
+#comment12{
+    height: 20vh;
+    padding: 4% 6%;
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+.ddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.donbut {
+    font-family: Robotobold;
+    font-size: 28px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #62A3EC 0%, #FFFFFF 100%);
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.05em;
+    padding: 1% 4%;
+}
