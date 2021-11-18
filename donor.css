@@ -1,16 +1,49 @@
-.main{
-    background-color: blueviolet;
+.card{
+border: 1px solid black;
     flex-basis: 100vh;
+    max-width: 500px;
+    margin: 2rem auto 5rem;
+    background-color: white;
+    height: 800px;
+    align-items: center;
+
     
 }
 .amount{
-    background-color: brown;
+
     display: flex;
     flex-direction: column;
+    padding-left: 2%;
+    padding: 50px;
 }
 .duration{
    display: flex;
    flex-direction: column;
-   justify-content: right;
+   padding-left: 20%;
+   float: right;
+   align-items: flex-end;
+   margin: 10px;
 }
+
+
+body{
+    background-color: white;
+}
+.main{
+    background-color: blue;
+    height: 800px;
+}
+.ilogo{
+    text-align: center;
+}
+.gib{
+    padding: 10px;
+}
+.don{
+    justify-content: center;
+}
+.full{
+    padding: 30px;
+}
+
 

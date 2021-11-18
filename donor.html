@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="donor.css">
 </head>
 <body>
-    <div class="main">
+    <div class="card">
+        <div class="main">
         <div class="logo">
             <div class="ilogo">
                 <img src="img/logo.png">
@@ -32,28 +33,35 @@
             <div class="pay">
                 <div class="method">
                     <head>Payment method</head>
+                </div>
                     <input type="radio" name="radio-btn" id="radio1">
                 <head>Mpesa</head>
                 <input type="radio" name="radio-btn" id="radio2"> 
                 <head>Bank</head>
                 <input type="radio" name="radio-btn" id="radio3">
                 <head>Paypal</head>
-                </div>
+               
+                
                 <div class="fullname">
+                  
                     <div class="full">
                         <head>Full Name</head>
-                        <input type="text" name="text-button" id="text" required>
-                        <head>message</head>
-                        <textarea id="message" name="message" rows="10" cols="20">
-                            <div id="button">
-                                <button type="DONATE">DONATE</button>
+                        <input type="text" placeholder="name">
+                    </div>
+                        <div class="gib">
+                        <head>Comment</head>
+                        <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+                    </div>
+                    <div class="don">
+                                <button>DONATE</button>
                             </div>
+                           
                     </div>
                 </div>
-        
+        </div>
                 </div>
             </div>
-        </div>
-    </div>
+    
+    
 </body>
 </html>
