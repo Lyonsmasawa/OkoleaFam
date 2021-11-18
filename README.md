@@ -10,9 +10,9 @@ This is a events website that enable both visitors  and members to the website t
 2)internet<br>
 laptop or smartphone<br>
 
-###Collaborators
-1)Catherene Wangari
-2) Daniel Muthama
+###Collaborators<br>
+1)Catherene Wangari<br>
+2) Daniel Muthama<br>
 3) Moi Shadrack
 
 ####Todo List<br>
