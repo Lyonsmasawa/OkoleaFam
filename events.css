@@ -1,98 +1,98 @@
-.head {
-  background-color: blue;
+@font-face {
+  font-family: Robotoitalic;
+  src: url(fonts/roboto/Roboto-Italic.ttf);
 }
 
-.head h1 {
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Robotomedium;
+  src: url(fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Robotobold;
+  src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Robotoblack;
+  src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  width: 100%;
+}
+
+.events {
+  font-family: Robotobold;
   text-align: center;
+  margin: 0% 0% 1% 0%;
+  background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.event {
-  background-color: blue;
+.row {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: white;
-  text-align: center;
+  column-gap: 20%;
+  margin: 2% 20% 5% 20%;
 }
 
 .cards {
   background-color: white;
-  margin: 50px;
-  height: 550px;
-  width: 30%;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  margin: 2% 0% 5% 0%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  box-shadow: white;
-  border-radius: 10px;
-}
-
-.cards img {
-  width: 100%;
-  
-}
-.but {
-  background-color: blue;
-  margin-top: 18%;
-}
-p {
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-text-align: left;
-margin: 15px;
-}
-.textt{
-  flex-basis: 70%;
-}
-.tet{
-  flex-basis: 70%;
-}
-.tyt{
-  flex-basis: 70%;
-}
-
-/* .events {
   align-items: center;
-  background-color: blue;
-  flex-direction: row;
-  border: blue;
+  justify-content: space-between;
+  padding: 0% 0% 1% 0%;
+}
+
+h1 {
+  font-family: Robotobold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0% 3%;
+}
+
+P {
+  margin-top: 0%;
+  text-align: left;
+  padding: 5% 5%;
+  font-family: Roboto;
 }
 
 .but {
-  background-color: blue;
-}
-.img {
-  float: left;
-  text-align: center;
-  margin: 40px;
-  padding-left: 70px;
+  background: #1CABE2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 5px;
+  padding: 2% 5%;
   color: white;
-  background-color: white;
+  font-size: 24px;
+  font-family: Robotobold;
 }
-.you {
-  float: left;
-  margin: 10px;
-  color: white;
-  padding-bottom: 20px;
-  background-color: white;
-}
-
-.vent {
-  background-color: blue;
-  flex-direction: row;
-
-  justify-items: center;
-}
-.head {
-  text-align: center;
-  font-size: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-.row2 {
-  color: black;
-} */
