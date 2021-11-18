@@ -1,0 +1,79 @@
+body {
+    padding: 5%;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .main {
+    flex-basis: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 3% 5%;
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+  }
+  
+  .contactus {
+    flex-basis: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 3% 5%;
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .circle1 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .circle2 {
+    height: 12vh;
+    width: 12vh;
+    border-radius: 0 0 80px 0;
+    background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+  }
+  
+  .text {
+    text-align: left;
+  }
+  
+  .icons {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 34px;
+  }
+  
+  .formarea {
+    background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 3% 5%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #name,
+  #email {
+    padding: 2%;
+    font-size: large;
+    border-radius: 14px;
+    border: none;
+  }
+  
+  #message {
+    font-size: large;
+    border-radius: 14px;
+    border: none;
+    padding: 1% 3%;
+  }
