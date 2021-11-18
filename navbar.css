@@ -79,23 +79,21 @@ nav {
   justify-content: space-between;
 }
 
-a {
+.navbar a {
   color: black;
   text-decoration: none;
   margin: 0%;
 }
 
-a:hover {
+.navbar a:hover {
   color: white;
   padding: 10%;
   background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
 }
 
-a:visited {
+.navbar a:visited {
   background: linear-gradient(135deg, #ffffff 0%, #4C83FF 100%);
 }
-
-a:active {}
 
 .profile {
   background: none;

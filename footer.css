@@ -43,6 +43,7 @@ footer{
 }
 .socialicons{
   padding: 0%;
+  align-items: center;
   display: flex;
   flex-basis: 25%;
   justify-content: space-evenly;
