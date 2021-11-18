@@ -28,6 +28,7 @@
 }
 
 .body {
+    background-color: aqua;
     color: black;
     height: max-content;
 }

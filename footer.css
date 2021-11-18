@@ -25,6 +25,7 @@ footer{
   justify-content: space-between;
   padding: 0px 2%;
   height: 60px;
+  margin-top: .5%;
 }
 .ftext{
   font-family: Robotoregular;
@@ -46,7 +47,7 @@ footer{
 .socialicons{
   padding: 0%;
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 25%;
   justify-content: space-evenly;
 }
 .fa {
@@ -83,6 +84,7 @@ footer{
   color: white;
 }
 .fa:hover {
+  overflow: hidden;
   color: black;
   background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
 }
