@@ -32,11 +32,13 @@ form input {
 }
 .BUT{
   text-align: center;
+  
 
 
 }
 h1{
   text-align: center;
+  padding: 20px;
 }
 .fb {
   width: auto;
@@ -89,5 +91,8 @@ h1{
 }
 .tet{
   float: left;
+}
+.but{
+  background-color: blue;
 }
 
