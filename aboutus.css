@@ -1,70 +1,82 @@
+@font-face {
+    font-family: Robotoitalic;
+    src: url(fonts/roboto/Roboto-Italic.ttf);
+}
 
-body{
-    /* background-color: grey; */
-    border-top:8px solid rgba(77, 181, 255, 0.2);
+@font-face {
+    font-family: Robotoregular;
+    src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Robotomedium;
+    src: url(fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Robotobold;
+    src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Robotoblack;
+    src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    color: black;
+    height: max-content;
+}
+
+.columns {
+    background-color: white;
+    border-top: 8px solid rgba(77, 181, 255, 0.2);
     border-bottom: 8px solid rgba(77, 181, 255, 0.2);
-    width: 1440px;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-h1{
-    font-size: 50px;
-    font-weight: normal;
-    size: 40px;
-    padding: 2px;
-    margin-left: 50px;
 
+h1 {
+    font-family: Robotoregular;
+    margin-bottom: 0%;
 }
-.p1{
-    /* position: absolute; */
-    /* width: 200px; */
-    /* height: 40px; */
-    /* font-weight: 480px; */
-    /* line-height: 25px; */
+
+.left {
     font-size: 30px;
-    padding: 0px;
-    margin-left: 40px;
-
-
-    
+    font-family: Robotoitalic;
+    text-align: center;
 }
-.p{
-    font-size: 30px;
-    margin: 70px;
-    font-family: Robot;
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 46%;
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    ;
+}
+
+.image2 {
+    padding: 1% 1%;
+}
+
+.p1,
+.p2 {
+    margin-top: 0%;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 32px;
     font-style: italic;
-    margin-right: 80px;
-    /* margin-right: 70px; */
-
-}
-.p2{
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 2px;
-}
-.image1{
-    position: left;
-    width: 470px;
-    height: 190px;
-    left: 80px;
-    top: 600px;
-    border: 5px rgb(0,0,0,0.5);
-    box-sizing: border-box;
-    padding: 10px;
-}
-.image2{
-    position: absolute;
-    width: 700px;
-    height: 600px;
-    /* left: 700px; */
-    top: 192px;
-    background-color: blue;
-    border:10px rgb(51, 51, 238);
-    box-sizing: border-box;
-    padding: 20px;
-    margin-top: 0px;
-    margin-left: 100px;
-}
-.img2{
-    padding: 50px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.03em;
 }
