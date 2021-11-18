@@ -1,9 +1,0 @@
-body{
-  margin: 0;
-  overflow: hidden;
-  height: 100vh;
-  background: linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
-}
-.center{
-  background-color: white;
-}
