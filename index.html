@@ -5,35 +5,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Home</title>
 </head>
 
 <body>
-  <!-- Slide Show -->
-  <section>
-    <img class="mySlides" src="img/home1.png" style="width:100%">
-    <p class="myslides">When we join hands</p>
-    <img class="mySlides" src="img/home2.png" style="width:100%">
-    <img class="mySlides" src="img/home3.png" style="width:100%">
-  </section>
-  
+  <!--navbar-->
+  <script id="replace_with_navbar" src="nav.js"></script>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="img/home1.png" style="width:100%">
+      <div class="text">When we join hands great things happen.
+        lets come together and inspire 
+        humanity.</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/home2.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/home3.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
   <script>
-    // Automatic Slideshow - change image every 3 seconds
-    var myIndex = 0;
-    carousel();
-    
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 3000);
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
-    </script>
+  </script>
+   <!--footer-->
+   <script id="replace_with_footer" src="footer.js"></script>
 </body>
 
 </html>
