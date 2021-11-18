@@ -1,59 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>okolea-fam</title>
-    <link rel="stylesheet" href="signup.css">
-</head>
-<body>
-   <div class="card">
-     <div class="small">
-       <img src="img/logo.png" alt="">
-       <img src="img/Okolea.png" alt="">
-       <img src="img/Fam.png" alt="">
-      </div>
-  
-   <div class="h1">
-   <h1>Signup</h1>
-  </div>
-    <form action="">
-      <img class="image3" src="img/icons/email_icon.png" alt="">
-      <div class="tet">
-        <label for="">Email*</label>
-      </div>
-        
-          
-        <input type="text" placeholder="example@gmail.com">
 
-        <img class="image1" src="img/icons/profile_icon.png" alt="" />
-        <div class="for">
-          <label for="">Username*</label>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>okelea-farm</title>
+  <link rel="stylesheet" href="signup.css" />
+</head>
+
+<body>
+  <div class="card">
+    <div class="slogo">
+      <img src="img/logo.png" alt="" style="width: 10%;" />
+      <img src="img/Okolea.png" alt="" style="width: 15%;" />
+      <img src="img/Fam.png" style="width: 10%;" />
+    </div>
+    <h1>Signup</h1>
+    <div class="dets">
+      <form action="">
+        <div class="allcontents">
+          <div class="uname">
+            <label for="">Email</label>
+            <div class="cont">
+              <img class="image1" src="img/icons/email_icon.png" alt="" style="width: 5%;"/>
+              <input type="email" placeholder="example@gmail.com" required id="uname"/>
+            </div>
+            <hr>
+          </div>
+
+          <div class="uname">
+            <label for="">Username</label>
+            <div class="cont">
+              <img class="image1" src="img/icons/profile_icon.png" alt="" style="width: 5%;"/>
+              <input type="text" placeholder="Type your username" required id="uname"/>
+            </div>
+            <hr>
+          </div>
+
+          <div class="upass">
+            <label for="">Password</label>
+            <div class="cont">
+              <img class="image2" src="img/icons/password_icon.png" alt="" style="width: 5%;"/>
+              <input type="text" placeholder="Type your password" required id="uname"/>
+            </div>
+            <hr>
+          </div>
         </div>
-        <input type="text" placeholder="Type your username" />
-        <img class="image2" src="img/icons/password_icon.png" alt="">
-        <div class="text">
-          <label for="">Password*</label>
-        </div>
-       
-        <div class="pass">
-          
-          <input type="text" placeholder="Type your password" />
-         
-        </div>
-        <div class="BUT">
-          <button class="but">Sign up</button>
+
+        <div class="signi">
+          <button class="signinit"><a href="signin.html">Sign up</a></button>
         </div>
       </form>
-      <h1>or sign in using </h1>
-      <div class="images">
-        <img class="fb" src="img/icons/facebook_icon.png" alt="" />
-        <img class="goo" src="img/icons/google_icons.png" alt="" />
+
+      <h2>Or Sign In Using</h2>
+      <div class="signicons">
+        <a href="#" onclick="f1(); return false;">
+        <img class="fb" src="img/icons/facebook_icon.png" alt="" style="width: 10%;" />
+        </a>
+        <img class="goo" src="img/icons/google_icons.png" alt="" style="width: 10%;" />
       </div>
-    </div> 
-  </body>
-</html>
-    
+
+      <h2>Already have an account? <a href="signin.html">Login</a></h2>
+
+    </div>
 </body>
+
 </html>
