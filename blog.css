@@ -26,9 +26,13 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+  margin: 0%;
+  width: 100%;
+}
 .blog {
   font-family: Robotobold;
+  margin-top: 0%;
 }
 .blog1{
 font-size: 48px;
