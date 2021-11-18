@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index.css">
   <title>OkoleaFam</title>
@@ -18,23 +18,32 @@
   <div class="slideshow">
 
     <div class="mySlides fade">
-      <img src="img/home1.png" style="width:100%" height="520vh">
-      <div class="text">When we join hands great things happen.
-        <br> lets come together and inspire  <br>
-        humanity.</div>
+      <div class="image">
+        <div class="overlay">
+          <div class="text">When we join hands great things happen.
+            <br> lets come together and inspire <br>
+            humanity.
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="mySlides fade">
-      <img src="img/home2.png" style="width:100%" height="520vh">
-      <div class="text">Donate items to suport families
-       <br> and children.</div>
+      <div class="image2">
+        <div class="overlay">
+          <div class="text">Donate items to suport families
+            <br> and children.
+          </div>
+        </div>
+      </div>
     </div>
-
     <div class="mySlides fade">
-      <img src="img/home3.png" style="width:100%" height="520vh">
-      <div class="text">Volunteer your time and come help <br> change lives.</div>
+      <div class="image3">
+        <div class="overlay">
+          <div class="text">Volunteer your time and come help <br> change lives.</div>
+        </div>
+      </div>
     </div>
-
   </div>
 
   <br>
@@ -44,7 +53,7 @@
     <span class="dot"></span>
     <span class="dot"></span>
     <i class="arrow">&#x2192;</i>
-    <button class="dbutton">Be a donor</button>
+    <button class="dbutton"><a href="donor.html">Be a donor</a></button>
   </div>
 
   <script>
@@ -67,11 +76,11 @@
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
     }
   </script>
-   <!--footer-->
-   <script id="replace_with_footer" src="footer.js"></script>
+  <!--footer-->
+  <script id="replace_with_footer" src="footer.js"></script>
 </body>
 
 </html>

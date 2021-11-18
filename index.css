@@ -1,4 +1,25 @@
-* {
+@font-face {
+  font-family: Robotoitalic;
+  src: url(fonts/roboto/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Robotomedium;
+  src: url(fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Robotobold;
+  src: url(fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face{
+  font-family: Robotoblack;
+  src: url(fonts/roboto/Roboto-Black.ttf);
+}
+
+*{
   box-sizing: border-box;
 }
 
@@ -8,8 +29,51 @@ body {
   text-align: center;
   align-items: center;
 }
-
+.image {
+  background-image: url("img/home1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 75vh;
+  font-size: 60px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image2 {
+  background-image: url("img/home2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 75vh;
+  font-size: 60px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image3 {
+  background-image: url("img/home3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 75vh;
+  font-size: 60spx;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dbutton a{
+  text-decoration: none;
+  color: #015485fd;
+}
 .slideshow {
+  margin-top: 1%;
   width: 100%;
   background-color: white;
 }
@@ -19,9 +83,9 @@ body {
   float: right;
   border-radius: 5px;
   border: transparent;
-  box-shadow: 6px 16px 7px grey;
+  box-shadow: 6px 16px 7px rgba(0, 0, 0, 0.519);
   font-size: 36px;
-  color: #075F92;
+  color: #3ea9e7;
   font-family: Robotobold;
   font-weight: bold;
   font-size: 36px;
@@ -35,18 +99,18 @@ body {
 .backdots {
   display: flex;
   justify-content: center;
-  background: rgba(161, 208, 253, 0.3);
+  background: rgba(122, 189, 252, 0.4);
   width: 100%;
-  padding: 0% 0%;
+  padding: 1% 0%;
   text-align: center;
   align-items: center;
 }
 
 
 .dot {
-  height: 25px;
-  width: 25px;
-  margin: 0 1%;
+  height: 35px;
+  width: 35px;
+  margin: 0 1.5%;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
@@ -58,30 +122,40 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: Roboto;
+  font-family: Robotobold;
   color: white;
-  font-size: 38px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 45px;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 100%;
+}
+.overlay {
+  background-color: rgb(0, 0, 0, .7);
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
 }
 
 .active {
-  background-color: #3FB1F3;
+  background-color: #1fa6f5;
   ;
 }
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: .6
+    opacity: .9
   }
 
   to {
