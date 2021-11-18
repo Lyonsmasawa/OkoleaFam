@@ -137,6 +137,12 @@ body {
   border: none;
   padding: 1% 3%;
 }
+.pers{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
 
 #submit {
   margin-top: 5%;
