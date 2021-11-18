@@ -1,0 +1,58 @@
+.card{
+border: 1px solid black;
+    flex-basis: 100vh;
+    max-width: 500px;
+    margin: 2rem auto 5rem;
+    background-color: white;
+    height: 800px;
+    align-items: center;
+    font-size: 25px;
+
+    
+}
+.amount{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding: 50px;
+}
+.duration{
+    text-align: right;
+   padding-left: 20%;
+   /* align-items: flex-end; */
+   margin: 10px;
+}
+
+
+body{
+    background-color: white;
+}
+.main{
+    background-color: rgb(0, 195, 255);
+    height: 800px;
+}
+.ilogo{
+    text-align: center;
+}
+.gib{
+    padding: 10px;
+}
+.don{
+    justify-content: center;
+}
+.full{
+    padding: 30px;
+}
+.method{
+    padding: 5px;
+}
+.buy{
+    padding: 20px;
+}
+
+#radio1{
+    padding-left: 30px;
+}
+
+
