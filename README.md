@@ -54,7 +54,7 @@ Please make sure you update the branches when you make changes plus a detailed g
 * Basics of HTML and CSS and Javascript
 
 ## License
-[MIT Licence](https://github.com/Lyonsmasawa/The-Burger-Palace-re/blob/4347e34d155dd0bbb118d595fef0c896a04605ac/Licence.md)
+[MIT Licence](https://github.com/Lyonsmasawa/OkoleaFam/blob/a1dc1f45c8a025841131ee48c6ce238577909c3f/Licence.md)
 
 MIT License
 
