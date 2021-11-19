@@ -60,10 +60,10 @@ nav {
   letter-spacing: 0.02em;
 }
 
-.fam {
+.fam1 {
   background: linear-gradient(135deg, #2AFADF 0%, #4C83FF 100%);
   -webkit-background-clip: text;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   margin: 0%;
 }
 
