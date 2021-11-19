@@ -1,42 +1,90 @@
 # OkoleaFam
-This a moringa events  website <br>
-created on 18/11/2021
 
-##Decsription<br>
-This is a events website that enable both visitors  and members to the website to view the events and and make donation to any Children's Home
+## A peek of the page
 
-###Setup/installation<br>
-1)Browser<br>
-2)internet<br>
-laptop or smartphone<br>
+<img src="img/project.png">
 
-###Collaborators<br>
-1)Catherene Wangari<br>
-2) Daniel Muthama<br>
-3) Moi Shadrack
+## Table of Content
 
-####Todo List<br>
-1)Ability to view events<br>
-2)Ability to make donation
++ [Description](#Description)
++ [Languages](##Languagesused)
++ [Usage](##Tousethetemplate)
++ [Contributing](##Contributing)
++ [Reference](#reference)
++ [Licence](##Licence)
++ [Author](##Author)
 
-###Known bugs<br>
-The project work well, there are no known bugs so far<br>
+## Description
+A website that links donors and volunteers to organizations that are established to help needy families and children.
 
-###Technologies Used<br>
-1)HTML<br>
-2)CSS<br>
-3)Figma<br>
-4)javascript
+* [Click here to view site](https://lyonsmasawa.github.io/OkoleaFam/)
 
-###Support and contact<br>
-For any assistance and support email to lyons.masawa@student.moringaschool.com
+## Language used
+This is a restaurant landing page template made of only HTML and CSS.
+  -HTML for the page structure.
+  -CSS for the page styling
+  -JS used for adding functionality
 
-##License<br>
-copyrigth@(2021)<br
- Email lyons.masawa@student.moringaschool.com Permission is hereby granted, free of charge, to any person obtaining a copy of this software <br>
-and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use,<br>
-copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,<br>
-subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the<br> Software. 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A <br>
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN <br>
-ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## To use the template.
+```
+
+## Usage
+* Requirements
+
+> A device able to display a webpage.
+
+> A code editor.
+
+> Basic knowledge on HTML, CSS and JavaScript
+
+* Installation
+
+> Clone repository or click on the download code button.
+
+> customize to your liking.
+
+```
+
+## Contributing
+Pull requests are welcome at all times. the more the merrier
+
+Please make sure you update the branches when you make changes plus a detailed guideline(commits) of changes made.
+
+## Reference
+* Basics of HTML and CSS and Javascript
+
+## License
+[MIT Licence](https://github.com/Lyonsmasawa/The-Burger-Palace-re/blob/4347e34d155dd0bbb118d595fef0c896a04605ac/Licence.md)
+
+MIT License
+
+Copyright (c) 2021 OKoleaFam
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## Author
+* Lyons Albert Masawa.
+
+##
+* Catherene Wangari
+* Moi Shadrack
+* Daniel Muthama
+
+[Go Back to the top](#OkoleaFam)
